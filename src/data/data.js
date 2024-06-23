@@ -1,34 +1,34 @@
-import img1 from "./img1.jpeg"
-import img2 from "./img2.avif"
-import img3 from "./img3.jpg"
-import img4 from "./img4.avif"
+import indoor from "./Indoor.jpg"
+import outDooringImg from "./outDoorImg.jpg"
+import staff from "./staff.jpg"
+import variety from "./variety.jpg"
 const siteDetails={
-    title: "Power Squad💪",
-    description: "Power Squad is an indoor venue for exercise and sports.",
-    contactDetails:"Ashok Stambh , Nashik , Maharashtra , India",
+    title: "Ritu's Cake Shop 🎂🍰",
+    description: "Ritu's Cake Shop is famous for Various tasty and healthy cake shop😋",
+    contactDetails:"Deolali Camp, , Pune , Maharashtra , India",
     showFeatures: true,
 }
 const features=[
     {
-        title: "Variety of Training ",
-        img:img1,
+        title: "Well-design Indoor shop to sit and enjoy Pastree with someoneSpecial❤️😸",
+        img:indoor,
     },
     {
-        title: "High-Quality Exercise Equipment",
-        img:img2,
+        title: "A beautiful cake shop🏬🦋",
+        img:outDooringImg,
     },
     {
-        title: "Well-Designed Space and Facility",
-        img:img3,
+        title: "Well-Trained staf to make delicious cake....!!!👩‍🍳👨‍🍳🤩",
+        img:staff,
     },
     {
-        title: "Digital Fitness Platform",
-        img:img4,
+        title: "Delicious VAriety cof cakes that you needed...😍😘",
+        img:variety,
     }
 ]
 const theme={
-    primaryColor:"#b3ffff",
-    secondaryColor:" #008080",
+    primaryColor:"#809fff",
+    secondaryColor:" #809fff",
     text:"#004d4d"
 }
 
